@@ -1,24 +1,19 @@
 name: dangnianqing4321
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '16 4/6 * * *'
+    - cron: '18 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: dangnianqing4321
         env:
-          dd8554: ${{ secrets.dd8554 }}
+          uhp6335: ${{ secrets.uhp6335 }}
         run: |
-          echo $dd8554 | jq -r .okose9 | /bin/bash
-          echo $n4174 | jq -r .trm18473 | /bin/bash
-          echo $srjs0 | jq -r .w760 | /bin/bash
-          echo $s60 | jq -r .whd5227 | /bin/bash
-          echo $pef268 | jq -r .hq47056 | /bin/bash
-          echo $wcxmy1338 | jq -r .xq83979 | /bin/bash
-          echo $ypv7550 | jq -r .xhy640 | /bin/bash
-          echo $ty958 | jq -r .dpa01 | /bin/bash
+          echo $uhp6335 | jq -r .ijg449 | /bin/bash
+          echo $tpcxc755 | jq -r .no055 | /bin/bash
+          echo $kqq919 | jq -r .q36 | /bin/bash
 
